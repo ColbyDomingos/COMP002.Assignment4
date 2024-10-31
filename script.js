@@ -3,6 +3,8 @@
 // console.log(min(0, 10)); // will output 0.
 // console.log(min(0, -10)); // will output -10
 
+
+alert("CHECK CONSOLE")
 function min(a, b){
     return a < b ? a : b;
 }
