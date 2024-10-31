@@ -21,3 +21,14 @@ function calculateCircumference(double){
 // Example Output:
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
+
+function searchString(char, str){
+    let count = 0;
+
+    for (let i = 0; i < str.length; i++){
+        if (str[i] === char) {
+            count++;
+        } 
+    }
+    return count;
+}
